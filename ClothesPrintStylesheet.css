@@ -1,0 +1,37 @@
+/*
+	Author: Luke Gitchel
+	Date: 2/2/2018
+	Project: Clothes R' Us 
+*/
+
+/*Hide page elements that will no be printed*/
+
+header, nav, footer
+{
+	display: none;
+}
+
+/*Print Page Styles*/
+@page
+{
+	size: 8.5in 11 in portrait;
+	margin: 0.5in;
+}
+
+img
+{
+	width: 50%;
+	margin: 2%;
+	display: block;
+	float: left;
+	clear: left;
+}
+
+p
+{
+	width: 40%;
+	margin: 2%;
+	display: block;
+	float: right;
+	clear: right;
+}

@@ -1,0 +1,347 @@
+
+/*
+	Author: Luke Gitchel
+	Date: 2/2/2018
+	Project: Clothes R' Us 
+*/
+
+/*Tablet Styles*/
+@media screen and (max-width: 1199px) and (orientation: portrait)
+{
+	/*Styles for the background of the page*/
+	body
+		{
+			background-color: lightblue;
+		}
+	
+	div
+		{
+			width: 80%;
+			margin: auto;
+			background-color: white;
+		}
+	
+	/*Header Logo Styles*/
+	.HEADER
+		{
+			width: 80%;
+			float: none;
+			margin: auto;
+			clear: both;
+			display: block;
+		}
+	
+	/*Navigation bar styles*/
+	.NAVIGATION
+		{
+			width: 100%;
+			color: darkblue;
+			background-color: lightblue;
+			text-align: left;
+			font-family: arial;
+			margin: auto;
+		}
+	
+	.NAVIGATION ul
+		{
+			width: 100%;
+			text-align: left;
+			margin: auto;
+			align-items: center;
+		}
+	
+	.NAVIGATION ul li
+		{
+			display: inline;
+			font-family: arial, serif;
+			margin-left: 2%;
+			margin-right: 2%;
+			font-size: large;
+			font-weight: 500;
+			width: 16%;
+			height: 100%;
+			text-align: center;
+			align-items: center
+		}
+	
+	.NAVIGATION ul li a 
+		{
+			text-decoration: none;
+			font-style: none;
+			color: seablue;
+		}
+	
+	.NAVIGATION ul li a:hover
+		{
+			color: blue;
+			font-style: bold;
+		}
+	
+	/*H1 heading styles*/
+	h1
+		{
+			font-size: large;
+			font-family: serif, arial;
+			text-align: center;
+		}	
+	
+	h3
+		{
+			float: right;
+			clear: none;
+			font-size: medium;
+			text-align: center;
+			font-family: serif, arial;
+			margin-right: 20%;
+			margin-bottom: 5%;
+		}
+	
+	/*Paragraph styles*/
+	section
+		{
+			color: black;
+			width: 90%;
+			font-size: 100%;
+			margin-top: 0%;
+			margin-bottom: 10%;
+			margin-right: 5%;
+			margin-left: 5%;
+		}
+	
+	section a
+		{
+			text-decoration: none;
+			color: seablue;
+		}
+	section ul li
+		{
+			text-decoration: none;
+			
+		}
+	
+	.cite 
+		{
+			color: black;
+			width: 94%;
+			margin-top: 5%;
+			margin-bottom: 10%;
+			margin-right: 5%;
+			margin-left: 5%;
+			text-align: center;
+		}
+
+	/*CEO Styles*/
+	.ceoheader
+		{
+			margin-top: 5%;
+			margin-bottom: 0%;
+		}
+		
+	.ceocite
+		{
+			text-align: center;
+			font-size: medium;
+		}
+		
+	.ceopic
+		{
+			width: 20%;
+
+			float: none;
+			margin: auto;
+			clear: both;
+			display: block;
+			
+
+			-moz-border-radius: 0px;
+			-o-border-radius: 0px;
+			-webkit-border-radius: 0px;
+			-ms-border-radius: 0px;
+			border-radius: 0px;
+		}
+		
+	.ceopic:hover
+		{
+			width: 20%;
+			
+			-moz-border-radius: 0px;
+			-o-border-radius: 0px;
+			-webkit-border-radius: 0px;
+			-ms-border-radius: 0px;
+			border-radius: 0px;
+		}
+	
+	/*Image styles*/
+	img
+		{
+			width: 60%;
+			float: none;
+			margin: auto;
+			clear: both;
+			display: block;
+
+			-moz-border-radius: 15px;
+			-o-border-radius: 15px;
+			-webkit-border-radius: 15px;
+			-ms-border-radius: 15px;
+			border-radius: 15px;
+		}	
+
+	.imgFloatRight 
+		{
+			float: right;
+			clear: none;
+			width: 10%;
+			margin-top: 5%;
+		}	
+	
+	.imgFloatRight img
+		{
+			width: 500%;
+		}	
+		
+	.imgFloatLeft
+		{
+			float: left;
+			clear: none;
+			width: 5%;
+			margin: 5%;
+		}		
+		
+	.PIC
+		{
+			width: 80%;
+
+			float: center;
+			margin: auto;
+			clear: both;		
+			text-align: center;
+
+			-moz-border-radius: 15px;
+			-o-border-radius: 15px;
+			-webkit-border-radius: 15px;
+			-ms-border-radius: 15px;
+			border-radius: 15px;
+		}	
+	
+	.PIC:hover 
+		{
+			margin: auto;
+			align-content: center;
+			width: 100%;
+			float: none;
+			clear: both;
+			text-align: center;
+			display: block;
+			background-color: transparent;
+			
+			-moz-border-radius: 15px;
+			-o-border-radius: 15px;
+			-webkit-border-radius: 15px;
+			-ms-border-radius: 15px;
+			border-radius: 15px;			
+		}
+		
+	/*SOCIAL Media Styles*/
+	.SOCIAL
+		{
+			width: 10%;
+			background-color: transparent;
+			text-align: center;
+			font-family: arial;
+			margin: auto;
+			position: fixed;
+			float: left;
+			clear: left;
+		}	
+		
+	.SOCIAL ul
+		{
+			width: 100%;
+			height: 100%;
+			text-align: center;
+			margin: auto;
+			display: inline;
+			background-color: transparent;
+		}
+
+	.SOCIAL ul li
+		{
+			display: block;
+			vertical-align: middle;
+			width: 100%;
+			font-family: arial, serif;
+			margin-top: 2%;
+			margin-bottom: 2%;
+			font-size: medium;
+			font-weight: 500;
+			text-decoration: none;
+			float: left;
+			clear: left;
+		}
+	
+	.SOCIAL ul li img
+		{
+			width: 60%;
+			margin: auto;
+			display: inline;
+			background-color: transparent;
+			vertical-align: middle;
+		}
+	
+	/*Table styles*/
+	table
+		{
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: auto;
+			margin-bottom: 5%;
+			width: 90%;
+			font-size: small;
+		}
+	
+	table th
+		{
+			background-color: lightblue;
+			width: 5%;
+			vertical-align: middle;
+			margin: auto;
+		}
+	
+	table td
+		{
+			text-align: center;
+			font-style: bold;
+			width: 5%;
+		}
+	
+	/*Footer Styles*/
+	footer 
+		{
+			font-size: medium;
+			margin: auto;
+			font-family: arial, serif;
+			background-color: lightblue;
+			width: 100%;
+			float: none;
+			clear: both;
+			font-weight: 500;
+		}
+	
+	footer ul
+		{
+			margin: auto;
+			width: 100%;
+			align-items: center;
+		}
+	
+	footer ul li
+		{
+			display: inline;
+			color: #002a5f;
+			margin-left: 0.5%;
+			margin-right: 0.5%;
+			align-items: center;
+		}
+	
+}
